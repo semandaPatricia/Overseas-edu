@@ -1,7 +1,9 @@
-import Image from "next/image";
-
-export default function Home() {
-  return (
-   <h1> Hello world</h1>
-  );
-}
+import { Heading } from '@chakra-ui/react'
+ 
+ const Home = () => {
+ return (
+ <Heading>Welcome to Chakra + Next.js</Heading>
+ ); 
+ }
+ 
+ export default Home;
